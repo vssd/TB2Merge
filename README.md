@@ -4,17 +4,15 @@ Consider: This project is *old*, really ***old***...
 
 Utility unit for Toolbar2000 (and derived components like TBX or SpTBX) to merge two sets of toolbar items together.
 
-Version 1.1b - always find the most current version at https://github.com/vssd/TB2Merge
+Version 1.1b - find the most current version at https://github.com/vssd/TB2Merge
 
-Copyright (C) 2005, 2006, 2018 Volker Siebert <flocke@vssd.de>
-
-All rights reserved.
-License: MIT
+Copyright (C) 2005, 2006, 2018 Volker Siebert, <flocke@vssd.de>
 
 ## Required Versions
 
-Verified Delphi versions: 5 to 2006.
-Verified Toolbar2000 versions: 2.1.5 to 2.1.8.
+Verified Delphi versions: 5 to 2006
+
+Verified Toolbar2000 versions: 2.1.5 to 2.1.8
 
 ## Introduction
 
