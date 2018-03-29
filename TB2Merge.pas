@@ -5,10 +5,10 @@
   merge two sets of toolbar items together. See the included file INFO.txt
   for information on how to use it.
 
-  Version 1.1b - always find the most current version at
+  Version 1.1b
   https://github.com/vssd/TB2Merge
 
-  Copyright (C) 2005, 2006, 2018 Volker Siebert <flocke@vssd.de>
+  Copyright (C) 2005, 2006 Volker Siebert <flocke@vssd.de>
   All rights reserved.
 
   Permission is hereby granted, free of charge, to any person obtaining a

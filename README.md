@@ -1,14 +1,15 @@
-Consider: This project is *old*, really ***old***...
+Consider: This is *really* old stuff.
 
 # TB2Merge
 
 Utility unit for Toolbar2000 (and derived components like TBX or SpTBX) to merge two sets of toolbar items together.
 
-Version 1.1b - find the most current version at https://github.com/vssd/TB2Merge
+Version 1.1b
+https://github.com/vssd/TB2Merge
 
-Copyright (C) 2005, 2006, 2018 Volker Siebert, <flocke@vssd.de>
+Copyright (C) 2005, 2006 Volker Siebert, <flocke@vssd.de>
 
-## Required Versions
+## Compatibility
 
 Verified Delphi versions: 5 to 2006
 
@@ -16,13 +17,13 @@ Verified Toolbar2000 versions: 2.1.5 to 2.1.8
 
 ## Introduction
 
-The intention for writing this code came from porting an older application with *many* MDI child forms to TBX, using a TTBXToolBar as the main menu bar.
+The intention for writing this code came from porting an older application with *many* MDI child forms to TBX, using a `TTBXToolBar` as the main menu bar.
 
 The most important thing first: `ToolbarMerger` works on *ordered* blocks of items having *the same* `GroupIndex` value. This is very similar to the way Delphi merges the menu of MDI children with the main form's menu. But this also means that if your items have the indexes (2, 1, 9, 8) the code won't work as intended - the indexes have to be *ordered*.
 
 Decreasing values are ignored and those items are just put together with the items that precede them, so the list of indexes above is equal to (2, 2, 9, 9). The only exception to this rule are separator items, because there is no way to assign a `GroupIndex` to them.
 
-By default, they are grouped together with items that follow them, but this behaviour can be changed with the option `moSeparatorAfterItems`.
+By default, they are grouped together with items that follow them, but this behavior can be changed with the option `moSeparatorAfterItems`.
 
 ## Simple Example
 
@@ -84,7 +85,7 @@ There are a few options you can pass to the call of `ToolbarMerger.Merge` that c
   Since there is no match for the indexes 1, 2, 8, and 9 in the above example, you will always get those blocks when merging these menus.
   The difference comes with index 5, because it appears on both sides.
 
-  * If you neither specify `moKeepTarget` nor `moRecursive`, the default action is to replace the entire target block by the source block (the whole menu). This mimics the behaviour of the VCL when merging two menus.
+  * If you neither specify `moKeepTarget` nor `moRecursive`, the default action is to replace the entire target block by the source block (the whole menu). This mimics the behavior of the VCL when merging two menus.
 
     --> You will get `( 1 | 2 | 5D 5E | 8 | 9 )`
 
@@ -102,7 +103,7 @@ There are a few options you can pass to the call of `ToolbarMerger.Merge` that c
 
   By default the system identifies matching entries by their name, i.e., `tbMainMenuBar.miFileSave` and `tbChildMenuBar.miFileSave` match because they have the same name.
 
-  Using `moMatchByCaption` resp. `moMatchByTag` changes this behaviour and items are identified by their caption resp. by their tag number.
+  Using `moMatchByCaption` resp. `moMatchByTag` changes this behavior and items are identified by their caption resp. by their tag number.
 
 * `moSeparatorAfterItems`
 
@@ -161,4 +162,4 @@ begin
 end;
 ```
 
-Also, take a look at the included sample application, a few lines of code often say more than 1,000 words ;)
+Also take a look at the included sample application.

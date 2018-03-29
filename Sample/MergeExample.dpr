@@ -2,9 +2,9 @@
   MergeExample.dpr
 
   This file is part of the TB2Merge.pas sample application.
-  https://github.com/vssd/TB2Merge
+  Info at https://github.com/vssd/TB2Merge
 
-  Copyright (C) 2005, 2006, 2018 Volker Siebert <flocke@vssd.de>
+  Copyright (C) 2005, 2006 Volker Siebert <flocke@vssd.de>
   All rights reserved.
 }
 
