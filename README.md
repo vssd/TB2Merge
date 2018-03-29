@@ -6,7 +6,7 @@ Consider: This is *really* old stuff.
 
 TB2Merge is a utility unit for [Toolbar2000](http://www.jrsoftware.org/tb2k.php) (and derived components like [TBX](https://github.com/plashenkov/TBX) or [SpTBX](https://github.com/SilverpointDev/sptbxlib)) to merge two sets of toolbar items together.
 
-Version 1.1b
+Version 1.1b  
 https://github.com/vssd/TB2Merge
 
 Copyright (C) 2005, 2006 Volker Siebert, <flocke@vssd.de>
