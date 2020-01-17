@@ -1,6 +1,6 @@
 Consider: This is *really* old stuff.
 
-![Delphi 5-2006](https://img.shields.io/badge/Delphi-5--2006-orange.svg) [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/vssd/TB2Merge/blob/master/LICENSE)
+![Delphi 5-2006](https://img.shields.io/badge/Delphi-5--2006-orange.svg) [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/vssd/TB2Merge/blob/master/LICENSE) [![LOC](https://tokei.rs/b1/github/vssd/TB2Merge?category=code)](https://github.com/vssd/TB2Merge)
 
 # TB2Merge
 
